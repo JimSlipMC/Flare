@@ -1,0 +1,140 @@
+# Plugin key. If you purchased this plugin you can get this from the developer. If this is leaked, then you are screwed.
+key: "key_here"
+
+# Scoreboard Values
+scoreboard:
+  line: '&7&m---------------------'
+  title: '&6&lFlare &c[Map 1]'
+  staffboard-enabled: true
+  staff: '&6&lStaff'
+  visibility: '  &7» &eVisibility: %arg%'
+  gamemode: '  &7» &eGamemode: %arg%'
+  chat: '  &7» &eChat: %arg%'
+  combat: '&c&lSpawn Tag&7: &c%arg%'
+  enderpearl: '&e&lEnderpearl&7: &c%arg%'
+  pvptimer: '&a&lPVP Timer&7: &c%arg%'
+  koth: '&9&l%kothname%&7: &c%arg%'
+  logout: '&c&lLogout&7: &c%arg%'
+  gapple: '&6&lGapple&7: &c%arg%'
+  home: '&a&lHome&7: &c%arg%'
+  stuck: '&4&lStuck&7: &c%arg%'
+  conquest:
+    - '&6&lConquest Event'
+    - '&c%red% &8| &e%yellow%'
+    - '&a%green% &8| &b%blue%'
+    - '%scoreboardline%'
+# Permission Settings
+permissions:
+  node: flare # Sets root node for permissions Ex. flare.whatever.  This changes the root node of the permissions.
+  groupmsg-enabled: true
+  groupmsg-message: '&eVIP Users &6»&f '
+  groupmsg-group: default # Group that will be announced in chat every 5 minutes.
+  
+# Pvp timer settings
+pvptimer:
+  duration: 1800
+  disabled-commands:
+  - 'f home'
+  - 'fhome'
+  disabled-items:
+  - '145'
+  - '46'
+  - '327'
+  - '12'
+  - '13'
+  - '30'
+  - '259'
+  protected-regions:
+  - 'koth1'
+  - 'koth2'
+  - 'koth3'
+  - 'koth4'
+
+# Deathban Usage Message
+deathban-usage-message:
+  - '&8&m----------------------------------------------'
+  - ' &b&lDeathban'
+  - '  &3/deathban check [player]'
+  - '  &3/deathban revive [player]'
+  - '  &3/deathban rollback [player]'
+  - '&8&m----------------------------------------------'
+
+# Deathban Check Message
+deathban-check-message:
+  - '&8&m----------------------------------------------'
+  - ' &b&lDeathban Check'
+  - '  &3Player: &7<player>'
+  - '  &3Duration: &7<duration>'
+  - '  &3Reason: &7<reason>'
+  - '  &3Location: &7<location>'
+  - '&8&m----------------------------------------------'
+
+# Lives Usage Message
+lives-usage-message:
+  - '&8&m----------------------------------------------'
+  - ' &b&lLives'
+  - '  &3/lives check [player]'
+  - '  &3/lives revive [player]'
+  - '  &3/lives send [player] [amount]'
+  - '&8&m----------------------------------------------'
+
+help:
+  - '&8&m----------------------------------------------'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&8&m----------------------------------------------'
+
+coords:
+  - '&8&m----------------------------------------------'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&8&m----------------------------------------------'
+
+# StaffMode Configuration :-)
+# Please use id for ITEMS
+STAFFMODE:
+    RTP:
+      ITEM: MAGIC_CLOCK
+      SLOT: 0
+      DISPLAYNAME: '&cRTP'
+    FREEZE:
+      ITEM: BLAZE_ROD
+      SLOT: 8
+      DISPLAYNAME: '&aFreeze Tool'
+    VANISH_ON:
+      ITEM: NETHER_STAR
+      SLOT: 1
+      DISPLAYNAME: '&eClick to Vanish'
+    VANISH_OFF:
+      ITEM: NETHER_STAR
+      SLOT: 1
+      DISPLAYNAME: '&eClick to Un-Vanish'
+    INSPECTOR:
+      ITEM: BOOK
+      SLOT: 2
+      DISPLAYNAME: '&eInspector'
+    ANYTHING:
+      ITEM: WOODEN_AXE
+      SLOT: 7
+      DISPLAYNAME: '&eWE'
+    HIDEHANDS:
+      ITEM: CARPET
+      SLOT: 4
+      DISPLAYNAME: '&cHide Hands'
+
+freeze:
+  - "&f\u2588\u2588\u2588\u2588&c\u2588&f\u2588\u2588\u2588\u2588"
+  - "&f\u2588\u2588\u2588&c\u2588&6\u2588&c\u2588&f\u2588\u2588\u2588"
+  - "&f\u2588\u2588&c\u2588&6\u2588&0\u2588&6\u2588&c\u2588&f\u2588\u2588 &4&lFrozen!"
+  - "&f\u2588\u2588&c\u2588&6\u2588&0\u2588&6\u2588&c\u2588&f\u2588\u2588"
+  - "&f\u2588&c\u2588&6\u2588\u2588&0\u2588&6\u2588\u2588&c\u2588&f\u2588 &7Please come in teamspeak."
+  - "&f\u2588&c\u2588&6\u2588\u2588\u2588\u2588\u2588&c\u2588&f\u2588 &7IP: &cts.flarecore.com&7, you have 5 minutes."
+  - "&c\u2588&6\u2588\u2588\u2588&0\u2588&6\u2588\u2588\u2588&c\u2588 &4&lIF YOU LOG OUT YOU WILL BE BANNED."
+  - "&c\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588"
+  - "&f\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588"

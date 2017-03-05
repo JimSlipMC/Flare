@@ -1,0 +1,20 @@
+# Should deathbans be enabled?  Useful for a KitMap type of setup.
+deathban-enabled: true
+
+# Deathban times, these are done by group name. Not permission!
+# Times are in minutes.
+deathban-times:
+  Player:
+    time: 120
+  Supporter:
+    time: 90
+  Donator:
+    time: 70
+  Flared:
+    time: 50
+  MVP:
+    time: 30
+  YouTuber:
+    time: 25
+  Famous:
+    time: 15

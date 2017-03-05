@@ -1,0 +1,56 @@
+name: Flare
+main: net.maattah.flare.Main
+version: 1
+author: [Maattah, Descriptive]
+depend: [Vault, WorldEdit, WorldGuard]
+commands:
+  flare:
+    description: Flare information command.
+  lock:
+    description: Chat lock command.
+    aliases: [l]
+  clearchat:
+    description: Clear chat command.
+    aliases: [cc]
+  ores:
+    description: See your and other peoples ores.
+  fly:
+    description: Fly higher than the sky.
+  gmc:
+    description: Set your gamemode to creative.
+  gms:
+    description: Set your gamemode to survival.
+  stats:
+    description: Shows player stats.
+  tp:
+    description: Teleport to a player.
+  tphere:
+    description: Teleport a player to yourself.
+  tppos:
+    description: Teleport to a position.
+  ss:
+    description: Freeze a player.
+    aliases: [freeze]
+  report:
+    description: Report a player.
+  request:
+    description: Request assistance.
+    aliases: [helpop]
+  deathban:
+    description: Deathban command.
+  lives:
+    description: Lives command.
+  help:
+    description: Help command.
+  coords:
+    description: Display important coordinates.
+  #staff:
+    #description: Staff command.
+    #aliases: [staffmode, mod]
+  v:
+    description: Vanish command.
+    aliases: [vanish]
+  pvp:
+    description: Pvp timer command.
+  reclaim:
+    aliases: [claim, perks]
